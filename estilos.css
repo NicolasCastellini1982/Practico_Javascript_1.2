@@ -1,0 +1,525 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+   
+}
+
+.logo{
+    width: 7.5rem;
+    height: 6.25rem;
+    margin-left: 5rem;
+}
+
+#navbarNav{
+    justify-content:flex-end;
+    margin-right: 12.5rem;    
+}
+
+#tickets{
+    color:green;
+}
+
+
+#imagen{
+    background-color:rgb(50,50,50);
+    background-blend-mode: soft-light;
+    background-image: url(img/hawaii.jpg);
+    height: 110vh;
+}
+
+#imagen2{
+    background-color:rgb(50,50,50);
+    background-blend-mode: soft-light;
+    background-image: url(img/hawaii3.jpg);
+    height: 110vh;    
+}
+
+
+.carousel-caption{       
+        position: absolute;
+        right: 0%;
+        left: 60%;
+        text-align: end;
+        margin-right: 12.5rem;
+        top: 45%;       
+}
+
+#quiero{
+    border-color:white;
+   
+}   
+
+
+.texto p{
+    text-align: center;
+    margin-top:0.625rem;
+    margin-bottom: 0px;
+}
+
+.texto h2{
+    text-align: center;
+    margin-bottom:0.625rem;
+    
+}
+
+.tarjetas #boton_js{
+    font-weight:bold;
+    font-size: 0.875rem;
+    width:4,6875;
+    padding: 0rem;
+    font-family:'Times New Roman';   
+}
+
+.tarjetas #boton_react{
+    font-weight:bold;
+    color: white;
+    font-size: 0.875rem;
+    width:3.125rem;
+    padding: 0rem;
+    font-family:'Times New Roman';  
+    background-color: rgb(28, 156, 156);  
+}
+
+.tarjetas #boton_negocios{
+    font-weight:bold;
+    font-size: 0.875rem;
+    width:3.500rem;
+    padding: 0rem;
+    font-family:'Times New Roman';   
+}
+
+.tarjetas #boton_startups{
+    font-weight:bold;
+    font-size: 0.875rem;
+    width:3.500;
+    padding: 0rem;
+    font-family:'Times New Roman';    
+}
+
+.tarjetas{
+    display:flex;
+    justify-content: center;
+    margin: 0.625rem;    
+}
+
+.tarjetas .card{
+    margin: 0.9375rem;
+    width:25rem;
+   
+}
+
+.subtitulo_orador p{
+      padding: 0rem;
+      margin: 0rem;
+}
+
+
+
+.honolulu{
+    display: flex;
+    background-color: rgb(53, 50, 50);
+    color: white;
+    border-top-style: groove; 
+    border-bottom-style: groove;    
+}
+
+.honolulu_imagen{    
+    width: 50%;
+    border-right-style: groove;    
+     
+}
+  
+.texto_honolulu{
+    width: 50%;
+    padding: 0.9375rem;
+}
+
+.texto_honolulu p{    
+    font-size: 1.1875rem;
+ 
+}
+
+
+
+#conoce{
+    border-color:white;
+    color: white;
+
+}
+
+form{
+    margin-top:0.9375rem;
+}
+
+#comment{
+    width: 81rem;
+    margin-top: 0.9375rem; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+    
+}
+
+label{
+    width: 81rem;   
+    margin-bottom: 0.9375rem; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+
+}
+
+#enviar{
+    width: 81rem;   
+    margin-bottom: 0.9375rem; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    background-color: rgb(135, 202, 96);
+    border: none;
+
+}
+
+
+.menu_footer{
+    margin-bottom:0;    
+    padding: 1em 0;
+    background-color: rgb(21, 69, 109);
+    color: white;
+    display: flex;
+    justify-content:space-around; 
+    list-style:none;    
+    width: 100%;   
+      
+}
+
+
+
+
+.menu_footer li{
+    width: 6.25rem;
+    text-align:center;    
+    
+}
+
+.menu_footer li a{
+    text-decoration:none;
+    color: white;
+    
+}
+
+.general{
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.general .card-title{
+    font-weight:bold;        
+}
+
+
+#card1{
+    border-color:rgb(173, 21, 173);
+}
+
+#card2{
+    border-color: rgb(28, 164, 228);    
+}
+
+#card3{
+    border-color: rgb(182, 182, 13);
+}
+
+
+.general .select p{   
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.general #botones{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    background-color: rgb(135, 202, 96);
+    font-weight: bold; 
+}
+
+
+.general #pagar{
+    background-color: rgb(177, 217, 233);    
+}
+
+
+.general .pagar ::placeholder {
+    color: rgb(78, 35, 119);    
+}
+
+
+
+.general .venta{
+    text-align: center;    
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+
+.general .venta h2{
+    font-weight:bold;      
+}
+
+.general .card-body {
+    text-align: center;
+}
+
+
+.barra{
+    width: 100%;
+    color: rgb(78, 35, 119);
+    background-color: rgb(177, 217, 233);  
+    height: 50px;
+    padding: 10px;
+}
+
+
+.menu_tickets{
+    margin-bottom:0;    
+    padding: 1em 0;
+    background-color: rgb(21, 69, 109);
+    color: white;
+    display: flex;
+    justify-content:space-around; 
+    list-style:none; 
+    position: absolute;
+    width: 100%;
+    bottom: 0;  
+      
+}
+
+
+
+
+.menu_tickets li{
+    width: 6.25rem;
+    text-align:center;    
+    
+}
+
+.menu_tickets li a{
+    text-decoration:none;
+    color: white;
+    
+}
+
+
+
+
+@media screen and (min-width:320px) and (max-width:479px){
+
+    .carousel-caption{                
+        right: 0%;
+        left: 0%;      
+        font-size: 12px; 
+        width: 80%;  
+        top: 0%;     
+    }
+
+    .tarjetas{
+        display: block;        
+        margin: 10px; 
+        align-content: center;        
+    }
+
+
+
+    .tarjetas img{
+           width: 256px;
+
+    }
+
+    .tarjetas .card-body{
+        width: 256px;   
+
+    }
+
+    .card{
+        width: 256px;
+        margin: 5px;  
+        justify-content: center;     
+    }
+
+    .tarjetas p{
+          font-size: 12px;
+    }
+
+    .honolulu{
+        display: block;
+    }
+
+    .honolulu_imagen{    
+        width: 100%;
+    }
+
+    .texto_honolulu{
+        width: 100%; 
+
+    }
+
+    .texto_honolulu p{   
+        width: 100%; 
+                
+    }
+
+    #conoce{
+        width: 4rem;
+        height: 3rem;       
+        padding: 0px;
+    
+    }
+
+    #comment{
+        width: 296px;
+    }
+
+    label{
+        width: 296px;
+    }
+
+    #enviar{
+        width: 296px; 
+        font-size:14px;
+    }
+
+    .menu_footer li a{
+        font-size: 8px;  
+        
+    }
+
+    #card1{
+        width:200px;   
+
+    }
+
+    #card2{
+        width:200px;   
+
+    }
+
+    #card3{
+        width:200px;          
+
+    }
+
+    .general{
+        width: 90%;
+        height: 90%;         
+        margin-top: 10px;
+        margin-bottom: 10px;   
+        
+    }    
+
+   
+
+   
+}
+
+@media screen and (min-width:480px) and (max-width:767px){
+
+    .carousel-caption{                
+        right: 0%;
+        left: 0%;      
+        font-size: 14px; 
+        width: 80%;  
+        top: 15%;     
+    }
+
+    .tarjetas p{
+          font-size: 14px;
+    }
+
+    .texto_honolulu p{    
+        font-size: 14px;     
+    }
+
+    #comment{
+        width: 456px;
+    }
+
+    label{
+        width: 456px;
+    }
+
+    #enviar{
+        width: 456px; 
+    }
+
+    .menu_footer li a{
+        font-size: 12px;  
+        
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:990px){
+
+    .carousel-caption{                
+        right: 0%;
+        left: 0%;      
+        font-size: 14px; 
+        width: 80%;  
+        top: 5%;     
+    }
+    #comment{
+        width: 696px;
+    }
+
+    label{
+        width: 696px;
+    }
+
+    #enviar{
+        width: 696px; 
+    }
+
+}
+
+@media (min-width: 991px) and (max-width:1199px){
+
+    #comment{
+        width: 936px;
+    }
+
+    label{
+        width: 936px;
+    }
+
+    #enviar{
+        width: 936px; 
+    }
+
+}
+
+@media (min-width: 1200px) and (max-width:1399px){
+
+    #comment{
+        width: 1116px;
+    }
+
+    label{
+        width: 1116px;
+    }
+
+    #enviar{
+        width: 1116px; 
+    }
+
+}
+
